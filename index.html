@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>for your special day ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="starfield" aria-hidden="true"></div>
+  <nav class="navbar">
+    <a class="brand" href="#home"><span class="brand-dot"></span> for you<span class="blue">.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">home</a><a href="#gallery">birthday calendar</a><a href="#about">about you</a><a href="#letter">my letter</a><a href="#wishes">wishes</a>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="line"></span> a little website, just for you</p>
+        <h1>happy birthday,<br><span class="gradient-text">you.</span> <span class="sparkle">✦</span></h1>
+        <p class="hero-description">today is all about you. so i made this little corner of the internet to remind you how special this day is.</p>
+        <div class="hero-actions"><a class="primary-btn" href="#letter">read your letter <span>↗</span></a><a class="text-btn" href="#gallery">see the date ↓</a></div>
+        <div class="mini-note"><span class="mini-icon">✧</span><span>made with a little bit of courage<br>and a lot of good wishes.</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="birthday-card"><div class="card-top"><span>✦ SPECIAL DAY ✦</span><span>№ 001</span></div><div class="cake">🎂</div><div class="card-title">make a<br><em>wish.</em></div><div class="card-bottom"><span>for someone special</span><span>♡</span></div></div>
+        <div class="float-tag tag-one">✦ your day!</div><div class="float-tag tag-two">good things ahead ↗</div><div class="floating-heart">♡</div>
+      </div>
+      <a class="scroll-hint" href="#gallery">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section calendar-section" id="gallery">
+      <div class="section-heading"><p class="eyebrow">01 / save the date</p><h2>one special date, <span class="gradient-text">just for you.</span></h2><p class="muted">ada satu tanggal yang beda dari tanggal lainnya — tanggal lahir kamu. ♡</p></div>
+      <div class="calendar-layout">
+        <div class="calendar-card">
+          <div class="calendar-top"><div><span class="calendar-kicker">YOUR SPECIAL MONTH</span><h3>october <span>2026</span></h3></div><span class="calendar-spark">✦</span></div>
+          <div class="calendar-weekdays"><span>MON</span><span>TUE</span><span>WED</span><span>THU</span><span>FRI</span><span>SAT</span><span>SUN</span></div>
+          <div class="calendar-days" aria-label="Kalender Oktober 2026">
+            <span class="empty-day"></span><span class="empty-day"></span><span class="empty-day"></span>
+            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span class="birthday-date" title="hari ulang tahun kamu">30<span>♡</span></span><span>31</span>
+          </div>
+          <div class="calendar-legend"><span class="legend-dot"></span> your birthday — october 30</div>
+        </div>
+        <div class="calendar-note"><span class="note-icon">♡</span><p class="eyebrow">FRIDAY / 30.10.2026</p><h3>the day <span class="gradient-text">you were born.</span></h3><p>besok bukan hari biasa, karena dunia pernah dapet satu orang yang spesial: kamu.</p><div class="countdown-label">COUNTING DOWN TO YOUR DAY</div><div class="countdown" id="birthdayCountdown"><div><strong id="countHours">--</strong><span>HOURS</span></div><b>:</b><div><strong id="countMinutes">--</strong><span>MINUTES</span></div><b>:</b><div><strong id="countSeconds">--</strong><span>SECONDS</span></div></div><p class="calendar-small-note" id="birthdayCountdownText">one more sleep until your day ✨</p></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="about-decoration">✳</div>
+      <div class="section-heading"><p class="eyebrow">02 / a few things</p><h2>things that make you, <span class="gradient-text">you.</span></h2><p class="muted">not a big list. just little things worth appreciating.</p></div>
+      <div class="quality-grid">
+        <article class="quality-card"><span class="quality-number">01</span><span class="quality-icon">☼</span><h3>your own kind of light</h3><p>semoga kamu selalu punya alasan buat tersenyum, bahkan di hari yang terasa biasa aja.</p></article>
+        <article class="quality-card featured"><span class="quality-number">02</span><span class="quality-icon">✧</span><h3>the person you are</h3><p>kamu tetap punya banyak hal baik dalam diri kamu, lebih dari yang mungkin kamu sadari.</p></article>
+        <article class="quality-card"><span class="quality-number">03</span><span class="quality-icon">☾</span><h3>your own journey</h3><p>ga harus selalu punya semua jawaban sekarang. pelan-pelan juga tetap sebuah kemajuan.</p></article>
+      </div>
+    </section>
+
+    <section class="section letter-section" id="letter">
+      <div class="letter-side"><p class="eyebrow">03 / from me to you</p><h2>a letter,<br><span class="gradient-text">just for you.</span></h2><p class="muted">take your time reading this. no rush, okay?</p><div class="envelope-art"><div class="envelope-flap">♡</div><div class="envelope-line"></div><span>to you, always wishing you well</span></div></div>
+      <div class="letter-paper"><div class="paper-top"><span>DEAR YOU,</span><span>29 / 10 / 2026</span></div><div class="paper-content" id="letterContent"><p>HAPPYYY BIRTHDAYYY 🤍🎂💗</p><p>semoga di umur kamu yang sekarang, banyak hal baik yang dateng ke hidup kamu, semua wish kamu bisa tercapai, sehat selalu, bahagia terus, dan dilancarin semua urusannya yaaa!!</p><p>btw, aku juga mau minta maaf yaa kalau soal masa lalu aku bikin kamu sekaget dan sekecewa itu. aku ngerti kok kalau setelah tau semuanya, mungkin ada hal yang berubah dari cara kamu ngeliat aku. aku ga nyalahin kamu kalau sekarang kamu butuh waktu buat menerima semuanya, dan aku ga akan maksa kamu buat langsung baik-baik aja.</p><p>aku emang ga bisa ngubah apa yang udah terjadi di masa lalu aku, tapi aku berharap kamu juga bisa kenal aku dari siapa aku sekarang, bukan cuma dari hal-hal yang udah berlalu. aku ngerti kalau mungkin sekarang kamu masih punya keraguan, dan aku hargai perasaan kamu. maaf yaa kalau kenyataan tentang aku bikin kamu ngerasa kecewa atau ga nyaman.</p><p>jujur, walaupun kita baru kenal sebentar, aku seneng bisa kenal kamu. aku seneng bisa ngobrol sama kamu, deket sama kamu, dan ngerasain hal-hal baik selama kita kenal. makasih yaa udah hadir dan bikin hari-hari aku belakangan ini jadi lebih berwarna. aku beneran menghargai itu.</p><p>sekali lagi, happy birthday yaaa!! semoga semua yang kamu semogakan bisa jadi kenyataan, semoga urusan kamu selalu dilancarin, dan semoga kamu selalu punya banyak alasan buat bahagia. jangan lupa jaga diri baik-baik, enjoy your special dayyy, and always be happy!! 🫰🏻🥹💗🤍</p><p class="signature">with warm wishes, <span>♡</span></p></div><button class="paper-button" id="readToggle">read the full letter ↓</button></div>
+    </section>
+
+    <section class="section wishes-section" id="wishes">
+      <div class="wishes-glow"></div><p class="eyebrow">04 / one more thing</p><h2>here's to <span class="gradient-text">your next chapter.</span></h2><p class="wishes-intro">semoga tahun ini lebih lembut sama kamu, lebih banyak kabar baik, dan lebih banyak hal yang bikin kamu bangga sama diri sendiri.</p>
+      <div class="wish-list"><div><span>✦</span> more peace in your mind</div><div><span>✦</span> more reasons to smile</div><div><span>✦</span> dreams that find their way to you</div><div><span>✦</span> people who treat you kindly</div></div>
+      <button class="surprise-btn" id="surpriseBtn">one last little surprise <span>♡</span></button>
+      <div class="surprise-message" id="surpriseMessage" hidden><div class="surprise-stars">✦ ✧ ✦</div><h3>you deserve good things.</h3><p>happy birthday sekali lagi yaa. semoga hari ini jadi awal dari banyak hal baik yang nunggu kamu di depan. jangan lupa bahagia, ya. ♡</p><span class="big-heart">♡</span></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home">for you<span class="blue">.</span></a><p>made with care, just for your special day ♡</p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
